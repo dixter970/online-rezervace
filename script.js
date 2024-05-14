@@ -57,7 +57,7 @@ function showInfo(){
             <td>${element.employeeCity}</td>
             <td>${element.employeeEmail}</td>
             <td>${element.employeePhone}</td>
-            <td>${element.employeePost}</td>
+            <td><img src="${element.picture}" alt="" width="50" height="50"></td>
             <td>${element.startDate}</td>
 
 
@@ -148,6 +148,4 @@ form.addEventListener('submit', (e)=> {
 
     imgInput.src = "./image/Profile Icon.webp"  
 
-    // modal.style.display = "none"
-    // document.querySelector(".modal-backdrop").remove()
 })
